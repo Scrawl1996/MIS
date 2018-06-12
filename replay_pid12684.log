@@ -1,0 +1,48 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 348 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 52769 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object notifyAll ()V 585 1 49 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 2073 1 1895 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 7169 1 896 0 -1
+ciMethod java/lang/Throwable <init> (Ljava/lang/String;)V 121 1 13 0 -1
+ciMethod java/lang/Throwable getMessage ()Ljava/lang/String; 9 1 1 0 -1
+ciMethod java/lang/Throwable getLocalizedMessage ()Ljava/lang/String; 9 1 1 0 -1
+ciMethod java/lang/Throwable toString ()Ljava/lang/String; 9 1 1 0 0
+ciMethod java/lang/Throwable fillInStackTrace ()Ljava/lang/Throwable; 465 1 41 0 -1
+ciMethod java/lang/Exception <init> (Ljava/lang/String;)V 89 1 9 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 2057 1 257 0 -1
+ciMethod java/lang/Thread blockedOn (Lsun/nio/ch/Interruptible;)V 3105 1 12227 0 0
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/Thread isInterrupted ()Z 2401 1 5567 0 0
+ciMethod java/lang/Thread isInterrupted (Z)Z 2049 1 256 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 977 1 1654 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1937 1 4726 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 969 1 2464 0 -1
+ciMethod sun/misc/Unsafe getByte (J)B 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe copyMemory (Ljava/lang/Object;JLjava/lang/Object;JJ)V 2049 1 256 0 -1
+ciMethod java/nio/Buffer <init> (IIII)V 2049 1 5377 0 384
+ciMethod java/nio/Buffer capacity ()I 1025 1 128 0 0
+ciMethod java/nio/Buffer position ()I 1033 1 129 0 0
+ciMethod java/nio/Buffer position (I)Ljava/nio/Buffer; 2089 1 5421 0 128
+ciMethod java/nio/Buffer limit ()I 1049 1 131 0 0
+ciMethod java/nio/Buffer limit (I)Ljava/nio/Buffer; 2073 1 5379 0 160
+ciMethod java/nio/Buffer flip ()Ljava/nio/Buffer; 2689 1 6096 0 0
+ciMethod java/nio/Buffer rewind ()Ljava/nio/Buffer; 2033 1 3037 0 0
+ciMethod java/nio/Buffer remaining ()I 2097 1 38936 0 0
+ciMethod java/nio/Buffer isReadOnly ()Z 0 0 1 0 -1
+ciMethod java/nio/Buffer nextGetIndex ()I 2905 1 21449 0 0
+ciMethod java/nio/Buffer checkBounds (III)V 2049 1 7621 0 0
+ciMethod java/security/AccessController doPrivileged (Ljava/security/PrivilegedAction;)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/lang/ThreadLocal initialValue ()Ljava/lang/Object; 33 1 4 0 -1
+ciMethod java/lang/ThreadLocal get ()Ljava/lang/Object; 633 1 5317 0 224
+ciMethod java/lang/ThreadLocal setInitialValue ()Ljava/lang/Object; 41 1 5 0 0
+ciMethod java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap; 1745 1 5328 0 0
+ciMethod java/lang/ThreadLocal createMap (Ljava/lang/Thread;Ljava/lang/Object;)V 17 1 2 0 -1
+ciMethod java/lang/ThreadLocal access$400 (Ljava/lang/ThreadLocal;)I 1065 1 133 0 0
+ciMethodData java/lang/Object <init> ()V 2 52786 orig 264 136 112 25 93 0 0 0 0 136 4 29 5 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 145 97 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/ThreadLocal$ThreadLocalMap getEntry (Ljava/lang/ThreadLocal;)Ljava/lang/ThreadLocal$ThreadLocalMap$Entry; 1641 1 5315 0 0
+ciMethod java/lang/ThreadLocal$ThreadLocalMap getEntryAfterMiss (Ljava/lang/ThreadLocal;ILjava/lang/ThreadLocal$ThreadLocalMap$Entry;)Ljava/lang/ThreadLocal$ThreadLocalMap$Entry; 25 1 3 0 -1
+ciMethod java/lang/ThreadLocal$ThreadLocalMap access$000 (Ljava/lang/Threa

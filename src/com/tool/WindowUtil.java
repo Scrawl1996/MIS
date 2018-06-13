@@ -1,7 +1,7 @@
 package com.tool;
 /**
  * 工具类
- * 使窗口显示在屏幕正中央
+ * 使窗口显示在屏幕正中央（windows）
  */
 import java.awt.Dimension;
 import java.awt.Point;
